@@ -97,4 +97,3 @@ app.listen(3000, () => {
 - **Validation**: Joi, Express-validator
 
 This foundation makes Node.js and Express.js an excellent choice for modern web development!
->>>>>>> 90a0533 (Add comprehensive README and initial server files for web development setup)
