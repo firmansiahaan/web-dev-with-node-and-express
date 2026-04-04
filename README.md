@@ -1,7 +1,3 @@
-# web-dev-with-node-and-express
-web development with node and express
-<<<<<<< HEAD
-=======
 The README.md file in your repository currently contains only a basic title and description. Let me provide you with a comprehensive guide on web development with Node.js and Express.js:
 
 ## Complete Guide: Web Development with Node.js and Express.js
