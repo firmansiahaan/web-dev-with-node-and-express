@@ -1,0 +1,22 @@
+{
+  "dependencies": {
+    "body-parse": "^0.1.0",
+    "body-parser": "^2.2.2",
+    "cat-names": "^4.0.0",
+    "cookie-parser": "^1.4.7",
+    "express": "^5.2.1",
+    "express-handlebars": "^9.0.1",
+    "express-session": "^1.19.0"
+  },
+  "name": "ch06",
+  "version": "1.0.0",
+  "description": "**In Node.js, the Request (`req`) and Response (`res`) objects are the foundation of handling HTTP communication: `req` represents the incoming client request (with details like URL, headers, and body), while `res` is used by the server to craft and send back the reply (status codes, headers, and content).**",
+  "main": "00-echo-headers.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs"
+}
