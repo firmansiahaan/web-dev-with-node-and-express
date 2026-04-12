@@ -1,13 +1,5 @@
 const express = require('express')
-const expressHandlebars = require('express-handlebars')
-
-const handlers = require('./lib/handlers')
-const weatherMiddlware = require('./lib/middleware/weather')
-
-const app = express()
-
-// configure Handlebars view engine
-app.engine('handlebars', expressHandlebars({
+const expressHandlebars = require('express-handlebars').create( {
   defaultLayout: 'main',
   helpers: {
     section: function(name, options) {
@@ -16,8 +8,16 @@ app.engine('handlebars', expressHandlebars({
       return null
     },
   },
-}))
-app.set('view engine', 'handlebars')
+})
+
+const handlers = require('./lib/handlers')
+const weatherMiddlware = require('./lib/middleware/weather')
+
+const app = express()
+
+// configure Handlebars view engine
+app.engine('handlebars', expressHandlebars.engine);
+app.set('view engine', 'handlebars');
 
 const port = process.env.PORT || 3000
 
