@@ -1,0 +1,22 @@
+{
+  "name": "ch12",
+  "version": "1.0.0",
+  "description": "",
+  "main": "00-logging.js",
+  "scripts": {
+    "start": "set NODE_ENV=production && node app",
+    "test": "jest",
+    "stress": "artillery quick --count 10 -n 50 http://localhost:3000/"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "artillery": "^2.0.30",
+    "express": "^5.2.1",
+    "jest": "^30.3.0",
+    "loadtest": "^8.2.1",
+    "morgan": "^1.10.1"
+  }
+}
