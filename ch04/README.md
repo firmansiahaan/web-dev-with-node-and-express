@@ -359,7 +359,7 @@ This side-by-side view makes it easier to decide which strategy fits your workfl
 
 ---
 
-Perfect, Firman! Let’s make this hands-on. Here’s how you can **set up Git Flow** and **build a CI/CD pipeline for Trunk-Based Development**, step by step — so you can actually apply both strategies in your projects.
+Perfect, xxxxxx! Let’s make this hands-on. Here’s how you can **set up Git Flow** and **build a CI/CD pipeline for Trunk-Based Development**, step by step — so you can actually apply both strategies in your projects.
 
 ---
 

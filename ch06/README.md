@@ -42,7 +42,7 @@ const http = require('http');
 const server = http.createServer((req, res) => {
   res.statusCode = 200;
   res.setHeader('Content-Type', 'text/plain');
-  res.end('Hello, Firman! This is Node.js response.');
+  res.end('Hello, xxxxxx! This is Node.js response.');
 });
 server.listen(3000);
 ```
