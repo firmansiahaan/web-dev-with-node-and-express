@@ -15,7 +15,7 @@ async function go() {
   try {
     const result = await mailTransport.sendMail({
       from: '"xxxxxx yyyyyyy - Meadowlark Travel" <xxxxxx.yyyyyyy@gmail.com>',
-      to: 'xxxxxx.yyyyyyy@hotmail.com, "Jae Customer" <jaeshambora@yahoo.com>, ' +
+      to: 'xxxxxx.yyyyyyy@hotmail.com, "Jae Customer" <zzzzzzzzzzz@yahoo.com>, ' +
         'xxxxxx.yyyyyyy@gmail.com',
       subject: 'Your Meadowlark Travel Tour',
       html: '<h1>Meadowlark Travel</h1>\n<p>Thanks for book your trip with ' +
