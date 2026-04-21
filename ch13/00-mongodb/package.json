@@ -1,0 +1,28 @@
+{
+  "dependencies": {
+    "body-parser": "^2.2.2",
+    "connect-redis": "^3.4.2",
+    "cookie-parser": "^1.4.7",
+    "dotenv": "^17.4.2",
+    "express": "^5.2.1",
+    "express-handlebars": "^9.0.1",
+    "express-session": "^1.19.0",
+    "mongodb": "^7.1.1",
+    "mongoose": "^6.13.9",
+    "multiparty": "^4.2.3",
+    "redis": "^5.12.1"
+  },
+  "name": "00-mongodb",
+  "version": "1.0.0",
+  "description": "",
+  "main": "db.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
